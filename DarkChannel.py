@@ -70,8 +70,8 @@ def deHaze(m, r=81, eps=0.001, w=0.95, maxV1=0.80, bGamma=False):
 
 
 if __name__ == '__main__':
-    m = deHaze(cv2.imread('./Fig/2.png') / 255.0) * 255
-    cv2.imwrite('./Fig/eg.png', m)
+    m = deHaze(cv2.imread('./Fig.jpg') / 255.0) * 255
+    cv2.imwrite('./Fig/OutFig.png', m)
 
 
 
