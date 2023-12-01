@@ -73,5 +73,5 @@ def L_func(img: np.ndarray, win_size: int):
     return L
 
 if __name__ == '__main__':
-    img = cv2.imread('./Fig/2.png')
+    img = cv2.imread('./matiing.png')
     L_func(img,3)
